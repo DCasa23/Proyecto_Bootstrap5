@@ -1,5 +1,5 @@
 function leerTodo(x){
-    var etiquetas=document.getElementsByTagName("li");
+    var etiquetas=document.getElementsByTagName("div");
     for (var i = 0; i<etiquetas.length; i++) {
         
             etiquetas[i].style.textOverflow = "ellipsis";    
@@ -10,7 +10,7 @@ function leerTodo(x){
     console.log("les estas dando")
 }
 function cambiarleerTodo(x){
-    var etiquetas=document.getElementsByTagName("li");
+    var etiquetas=document.getElementsByTagName("div");
     for (var i = 0; i<etiquetas.length; i++) {
         
             etiquetas[i].style.textOverflow = "clip";    

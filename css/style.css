@@ -1,19 +1,32 @@
-/**{
-    border:2px red solid;
-}*/
-body{
-    max-width: 100%;
+* {
+    border: 2px red solid;
 }
-.container{
-    width: 1000px;
-    height: 700px;
-}
-main{
-    height: 700px;
-}
-header{font-size: 4vw;}
 
-.col-center{
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+main{
+    margin-bottom: 300px;
+    padding-bottom: 300px;
+    min-height: 1000px;
+}
+
+header {
+    font-size: 4vw;
+}
+
+.col-center {
     float: none;
     margin: 0 auto;
+}
+
+footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    margin-top: 300px;
+    
 }

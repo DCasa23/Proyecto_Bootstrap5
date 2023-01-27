@@ -14,325 +14,396 @@
 </head>
 
 <body>
-  <header class="container-fluid">
+  <header class="container-fluid border-bottom border-dark border-1">
     <div class="row">
-      <div class="col-2 float-start "><img class="bd-placeholder-img bd-placeholder-img-lg featurette image
-        img-fluid mx-auto height: 700px;" src="../img/Proyecto Alba.png"></div>
+      <div class="col-2 float-start p-0 "><img class="bd-placeholder-img bd-placeholder-img-lg featurette image
+        img-fluid mx-auto;" src="../img/ProyectoAlbaRemove.png"></div>
       <div class="col-8 text-center align-self-center float-none ">
         <h1>Pagina Principal</h1>
       </div>
-      <div class="col-2 float-start text-center  "><img class="bd-placeholder-img bd-placeholder-img-lg featurette image
+      <div class="col-2 float-start text-center p-0  "><img class="bd-placeholder-img bd-placeholder-img-lg featurette image
       img-fluid mx-auto;" src="../img/guest.png"><a class="display-6 m-4" href="www.marca.com">Usuariu</a></div>
     </div>
   </header>
-  <main class="container-fluid">
+  <main class="container-fluid p-0 mb-0">
 
-    <div class="float-start col-2">
+    <div class="border-end border-dark border-2 float-start pt-5 col-2 izquierdo">
       
         <ul class="list-unstyled ps-3">
           <li class="mb-1">
             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-              data-bs-target="#home-collapse" aria-expanded="true">
-              Home
+              data-bs-target="#proyectos" aria-expanded="true"><span class="h3">Proyectos</span>
+              
             </button>
-            <div class="collapse show" id="home-collapse">
+            <div class="collapse show" id="proyectos">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-4 small">
-                <li><a href="#" class="link-dark rounded">Overview</a></li>
-                <li><a href="#" class="link-dark rounded">Updates</a></li>
-                <li><a href="#" class="link-dark rounded">Reports</a></li>
+                <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none h4">Preguntas Cortas</a></li>
+                <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none h4">Examen Desarrollo</a></li>
+                <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none h4">Test</a></li>
+                <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none h4">Cantar Temas</a></li>
+                <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none h4">Tarjetas de Memoria</a></li>
               </ul>
             </div>
           </li>
           <li class="mb-1">
             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-              data-bs-target="#dashboard-collapse" aria-expanded="false">
-              Dashboard
+              data-bs-target="#tareas" aria-expanded="false"><span class="h3">Tareas</span>
             </button>
-            <div class="collapse" id="dashboard-collapse">
+            <div class="collapse" id="tareas">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-4 small">
-                <li><a href="#" class="link-dark rounded">Overview</a></li>
-                <li><a href="#" class="link-dark rounded">Weekly</a></li>
-                <li><a href="#" class="link-dark rounded">Monthly</a></li>
-                <li><a href="#" class="link-dark rounded">Annually</a></li>
+                <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none h4">Creadas</a></li>
+                <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none h4">Pendientes</a></li>
+                <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none h4">Corregidas</a></li>
+                <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none h4">Papelera</a></li>
+                
               </ul>
             </div>
           </li>
           <li class="mb-1">
             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-              data-bs-target="#orders-collapse" aria-expanded="false">
-              Orders
+              data-bs-target="#alumnos" aria-expanded="false">
+              <span class="h3">Alumnos</span>
             </button>
-            <div class="collapse" id="orders-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="#" class="link-dark rounded">New</a></li>
-                <li><a href="#" class="link-dark rounded">Processed</a></li>
-                <li><a href="#" class="link-dark rounded">Shipped</a></li>
-                <li><a href="#" class="link-dark rounded">Returned</a></li>
+            <div class="collapse" id="alumnos">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-4 small">
+                <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none h4">Crear Alumno</a></li>
+                <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none h4">Alumnos</a></li>
+                <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none h4">Crear Grupo</a></li>
+                <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none h4">Grupos</a></li>
               </ul>
             </div>
           </li>
-          <li class="border-top my-3"></li>
           <li class="mb-1">
             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-              data-bs-target="#account-collapse" aria-expanded="false">
-              Account
+              data-bs-target="#mensajes" aria-expanded="false">
+              <span class="h3">Mensajes</span>
             </button>
-            <div class="collapse" id="account-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="#" class="link-dark rounded">New...</a></li>
-                <li><a href="#" class="link-dark rounded">Profile</a></li>
-                <li><a href="#" class="link-dark rounded">Settings</a></li>
-                <li><a href="#" class="link-dark rounded">Sign out</a></li>
+            <div class="collapse" id="mensajes">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-4 small">
+                <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none h4">Redactar</a></li>
+                <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none h4">Entrada</a></li>
+                <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none h4">Enviados</a></li>
+                <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none h4">Borrados</a></li>
               </ul>
             </div>
           </li>
+          <li class="border-top border-dark my-3 me-5"></li>
+          <li class="mb-1">
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+              data-bs-target="#configuracion" aria-expanded="false">
+              <span class="h3">Configuración</span>
+            </button>
+            
+          </li>
+          <li class="mb-1">
+            <button class="btn btn-toggle align-items-center rounded"  aria-expanded="false">
+              <span class="h3">Cuenta Usuario</span>
+            </button>
+
+          </li>
+          <li class="border-top border-dark my-3 me-5"></li>
         </ul>
     </div>
 
 
-    <div class="float-start row justify-content-center col-8 text-center ">Columnaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    <div class="float-start ms-0 row justify-content-center col-8 text-center ">Columnaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
-      <div class="h-100 pe-0 m-3 col-11 float-none col-center"
-        style=" background-color: rgba(0,0,255,.1);max-height: 500px;">
-        <div class=" row">
-          <div class="col-11 col-center">Ultimos Proyectos</div>
-          <div class="col-1 text-end pe-0 "> <img class=" bd-placeholder-img bd-placeholder-img-lg featurette image
-          img-fluid mx-auto align-items-end;" src="../img/+.png"></div>
+      <div class="h-100 m-3 pe-0 col-11 float-none col-center border border-dark border-2 overflow-hidden"
+        style=" background-color:#eee8cd;max-height: 600px;">
+        <div class=" row border border-dark border-end-0 border-top-0 border-start-0 me-0">
+          <div class="col-11 col-center ">Proyectos Generales</div>
+          <div class="col-1 text-end pe-2 pt-1 pb-1"> <img class=" bd-placeholder-img bd-placeholder-img-lg featurette image
+          img-fluid mx-auto align-items-end;" src="../img/+remove.png"></div>
         </div>
-        <div class="col-center col-12 overflow-auto ps-5" style=" max-height: 400px;">
-          <ul class="mb-5 float-none list-unstyled float-start">
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-              img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                  img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                    img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                      img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                        img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                          img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                            img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                              img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                  img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                    img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                      img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                        img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                          img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                            img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                              img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                                img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                                  img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                                    img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa
+        <div class="col-center col-12 overflow-auto mt-3" style="max-height: 500px;">
+          <ul class="mb-3 float-none list-unstyled float-start">
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+              img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                  img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                    img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                      img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                        img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                          img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                            img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                              img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                                img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                                  img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                                    img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                                      img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                                        img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                                          img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                                            img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                                              img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                                                img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                                                  img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                                                    img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa
             </li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                                      img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                                                      img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa
             </li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                         img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa
+                src="../img/+remove.png">Holaaaaaa
             </li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                           img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                             img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                               img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                                 img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                                   img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                                     img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                                       img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                                         img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                                           img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                                             img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                                               img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                                                 img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                                                   img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                                                     img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img
                 class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                                                                      img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa
+                                                                                      img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa
             </li>
-            <li class="col-2 h5 float-start mb-5"><img
+            <li class="col-2 h5 float-start mb-3"><img
                 class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                                                                        img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa
+                                                                                        img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa
             </li>
-            <li class="col-2 h5 float-start mb-5"><img
+            <li class="col-2 h5 float-start mb-3"><img
                 class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                                                                          img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa
+                                                                                          img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa
             </li>
-            <li class="col-2 h5 float-start mb-5"><img
+            <li class="col-2 h5 float-start mb-3"><img
                 class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                                                                            img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa
+                                                                                            img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa
             </li>
 
           </ul>
         </div>
       </div>
-      <div class="h-100 m-3 pe-0 col-11 float-none col-center border border-warning border-3"
-        style=" background-color: rgba(0,0,255,.1);max-height: 500px;">
-        <div class=" row border border-warning border-end-0 border-top-0 border-start-0 me-0">
+      <div class="h-100 m-3 pe-0 col-11 float-none col-center border border-dark border-2 overflow-hidden"
+        style=" background-color: rgba(0,0,255,.1);max-height: 600px;">
+        <div class=" row border border-dark border-end-0 border-top-0 border-start-0 me-0">
           <div class="col-11 col-center ">Proyectos Generales</div>
           <div class="col-1 text-end pe-2 pt-1 pb-1"> <img class=" bd-placeholder-img bd-placeholder-img-lg featurette image
-          img-fluid mx-auto align-items-end;" src="../img/+.png"></div>
+          img-fluid mx-auto align-items-end;" src="../img/+remove.png"></div>
         </div>
-        <div class="col-center col-12 overflow-auto " style="max-height: 400px;">
-          <ul class="justify-content-center mb-5 float-none list-unstyled float-start">
-            <li class="col-2 h5 float-start mb-5 mb-3" ondblclick="cambiarleerTodo(this)" onclick="leerTodo(this)">
+        <div class="col-center col-12 overflow-auto mt-3" style="max-height: 500px;">
+          <ul class="justify-content-center mb-3 float-none list-unstyled float-start">
+            <li class="col-2 h5 float-start mb-3 elemento" ondblclick="cambiarleerTodo(this)" onclick="leerTodo(this)">
               <div><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-              img-fluid mx-auto align-items-end; pb-2" src="../img/+.png"></div>
-              <div class="col-center text-truncate" style=" max-width: 150px;"><span>Holaaaaaa asdasdas
+              img-fluid mx-auto align-items-end; pb-2" src="../img/+remove.png"></div>
+              <div class="col-center text-truncate" style=" max-width: 150px;"><span class="elemento">Holaaaaaa asdasdas
                   asdasdasdad</span></div>
             </li>
-            <li class="col-2 h5 float-start mb-5 " ondblclick="cambiarleerTodo(this)" onclick="leerTodo(this)">
+            <li class="col-2 h5 float-start mb-3" ondblclick="cambiarleerTodo(this)" onclick="leerTodo(this)">
               <div><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                img-fluid mx-auto align-items-end; pb-2" src="../img/+.png"></div>
-              <div class="col-center text-truncate" style=" max-width: 150px;"><span>Holaaasdasdasdad</span></div>
+                img-fluid mx-auto align-items-end; pb-2" src="../img/+remove.png"></div>
+              <div class="col-center text-truncate" style=" max-width: 150px;"><span class="elemento">Holaaasdasdasdad</span></div>
+            </li>
+            <li class="col-2 h5 float-start mb-3 mb-3" ondblclick="cambiarleerTodo(this)" onclick="leerTodo(this)">
+              <div><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+              img-fluid mx-auto align-items-end; pb-2" src="../img/+remove.png"></div>
+              <div class="col-center text-truncate" style=" max-width: 150px;"><span class="elemento">Holaaaaaa asdasdas
+                  asdasdasdad</span></div>
+            </li>
+            <li class="col-2 h5 float-start mb-3 " ondblclick="cambiarleerTodo(this)" onclick="leerTodo(this)">
+              <div><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                img-fluid mx-auto align-items-end; pb-2" src="../img/+remove.png"></div>
+              <div class="col-center text-truncate" style=" max-width: 150px;"><span class="elemento">Holaaasdasdasdad</span></div>
+            </li>
+            <li class="col-2 h5 float-start mb-3 mb-3" ondblclick="cambiarleerTodo(this)" onclick="leerTodo(this)">
+              <div><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+              img-fluid mx-auto align-items-end; pb-2" src="../img/+remove.png"></div>
+              <div class="col-center text-truncate" style=" max-width: 150px;"><span class="elemento">Holaaaaaa asdasdas
+                  asdasdasdad</span></div>
+            </li>
+            <li class="col-2 h5 float-start mb-3 " ondblclick="cambiarleerTodo(this)" onclick="leerTodo(this)">
+              <div><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                img-fluid mx-auto align-items-end; pb-2" src="../img/+remove.png"></div>
+              <div class="col-center text-truncate" style=" max-width: 150px;"><span class="elemento">Holaaasdasdasdad</span></div>
+            </li>
+            <li class="col-2 h5 float-start mb-3 mb-3" ondblclick="cambiarleerTodo(this)" onclick="leerTodo(this)">
+              <div><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+              img-fluid mx-auto align-items-end; pb-2" src="../img/+remove.png"></div>
+              <div class="col-center text-truncate" style=" max-width: 150px;"><span class="elemento">Holaaaaaa asdasdas
+                  asdasdasdad</span></div>
+            </li>
+            <li class="col-2 h5 float-start mb-3 " ondblclick="cambiarleerTodo(this)" onclick="leerTodo(this)">
+              <div><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                img-fluid mx-auto align-items-end; pb-2" src="../img/+remove.png"></div>
+              <div class="col-center text-truncate" style=" max-width: 150px;"><span class="elemento">Holaaasdasdasdad</span></div>
+            </li>
+            <li class="col-2 h5 float-start mb-3 mb-3" ondblclick="cambiarleerTodo(this)" onclick="leerTodo(this)">
+              <div><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+              img-fluid mx-auto align-items-end; pb-2" src="../img/+remove.png"></div>
+              <div class="col-center text-truncate" style=" max-width: 150px;"><span class="elemento">Holaaaaaa asdasdas
+                  asdasdasdad</span></div>
+            </li>
+            <li class="col-2 h5 float-start mb-3 " ondblclick="cambiarleerTodo(this)" onclick="leerTodo(this)">
+              <div><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                img-fluid mx-auto align-items-end; pb-2" src="../img/+remove.png"></div>
+              <div class="col-center text-truncate" style=" max-width: 150px;"><span class="elemento">Holaaasdasdasdad</span></div>
+            </li>
+            <li class="col-2 h5 float-start mb-3 mb-3" ondblclick="cambiarleerTodo(this)" onclick="leerTodo(this)">
+              <div><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+              img-fluid mx-auto align-items-end; pb-2" src="../img/+remove.png"></div>
+              <div class="col-center text-truncate" style=" max-width: 150px;"><span class="elemento">Holaaaaaa asdasdas
+                  asdasdasdad</span></div>
+            </li>
+            <li class="col-2 h5 float-start mb-3 " ondblclick="cambiarleerTodo(this)" onclick="leerTodo(this)">
+              <div><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                img-fluid mx-auto align-items-end; pb-2" src="../img/+remove.png"></div>
+              <div class="col-center text-truncate" style=" max-width: 150px;"><span class="elemento">Holaaasdasdasdad</span></div>
             </li>
 
-            <li class="col-2 h5 float-start mb-5 "><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                  img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaaaaaaaaaaaaaaaaaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                    img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaaaaaaaaaaaaaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                      img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                        img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                          img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                            img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                              img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                  img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                    img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                      img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                        img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                          img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                            img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                              img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                                img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                                  img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                                    img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa
+            <li class="col-2 h5 float-start mb-3 "><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                  img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaaaaaaaaaaaaaaaaaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                    img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaaaaaaaaaaaaaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                      img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                        img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                          img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                            img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                              img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                                img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                                  img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                                    img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                                      img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                                        img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                                          img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                                            img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                                              img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                                                img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                                                  img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                                                    img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa
             </li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                                      img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                                                      img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa
             </li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                         img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa
+                src="../img/+remove.png">Holaaaaaa
             </li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                           img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                             img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                               img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                                 img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                                   img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                                     img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                                       img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                                         img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                                           img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                                             img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                                               img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                                                 img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                                                   img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
                                                                                     img-fluid mx-auto align-items-end;"
-                src="../img/+.png">Holaaaaaa</li>
-            <li class="col-2 h5 float-start mb-5"><img
+                src="../img/+remove.png">Holaaaaaa</li>
+            <li class="col-2 h5 float-start mb-3"><img
                 class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                                                                      img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa
+                                                                                      img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa
             </li>
-            <li class="col-2 h5 float-start mb-5"><img
+            <li class="col-2 h5 float-start mb-3"><img
                 class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                                                                        img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa
+                                                                                        img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa
             </li>
-            <li class="col-2 h5 float-start mb-5"><img
+            <li class="col-2 h5 float-start mb-3"><img
                 class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                                                                          img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa
+                                                                                          img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa
             </li>
-            <li class="col-2 h5 float-start mb-5"><img
+            <li class="col-2 h5 float-start mb-3"><img
                 class=" col-8 bd-placeholder-img bd-placeholder-img-lg featurette image
-                                                                                            img-fluid mx-auto align-items-end;" src="../img/+.png">Holaaaaaa
+                                                                                            img-fluid mx-auto align-items-end;" src="../img/+remove.png">Holaaaaaa
             </li>
 
           </ul>
@@ -342,66 +413,38 @@
     </div>
 
 
-    <div class="float-end col-2">
-      <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
-      </a>
-      <ul class="list-unstyled ps-0">
+    <div class="border-start border-dark pt-5 float-end col-2 derecho">
+      <ul class="list-unstyled ps-3">
         <li class="mb-1">
           <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-            data-bs-target="#hom-collapse" aria-expanded="true">
-            Home
+            data-bs-target="#cr-proyecto" aria-expanded="true"><span class="h3">Crear Proyecto</span>
+            
           </button>
-          <div class="collapse show" id="hom-collapse">
-            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-              <li><a href="#" class="link-dark rounded">Overview</a></li>
-              <li><a href="#" class="link-dark rounded">Updates</a></li>
-              <li><a href="#" class="link-dark rounded">Reports</a></li>
+          <div class="collapse show" id="cr-proyecto">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-4  small">
+              <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none h4">Preguntas Cortas</a></li>
+              <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none h4">Examen Desarrollo</a></li>
+              <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none h4">Test</a></li>
+              <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none h4">Cantar Temas</a></li>
+              <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none h4">Tarjetas de Memoria</a></li>
             </ul>
           </div>
         </li>
         <li class="mb-1">
-          <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-            data-bs-target="#dashboard-collapse" aria-expanded="false">
-            Dashboard
+          <button class="btn btn-toggle align-items-center rounded" aria-expanded="false"><span class="h3">Crear Tarea</span>
+  
           </button>
-          <div class="collapse" id="dashboar-collapse">
-            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-              <li><a href="#" class="link-dark rounded">Overview</a></li>
-              <li><a href="#" class="link-dark rounded">Weekly</a></li>
-              <li><a href="#" class="link-dark rounded">Monthly</a></li>
-              <li><a href="#" class="link-dark rounded">Annually</a></li>
-            </ul>
-          </div>
         </li>
         <li class="mb-1">
-          <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-            data-bs-target="#orders-collapse" aria-expanded="false">
-            Orders
+          <button class="btn btn-toggle align-items-center rounded" aria-expanded="false"><span class="h3">Crear Alumno</span>
           </button>
-          <div class="collapse" id="ordrs-collapse">
-            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-              <li><a href="#" class="link-dark rounded">New</a></li>
-              <li><a href="#" class="link-dark rounded">Processed</a></li>
-              <li><a href="#" class="link-dark rounded">Shipped</a></li>
-              <li><a href="#" class="link-dark rounded">Returned</a></li>
-            </ul>
-          </div>
         </li>
-        <li class="border-top my-3"></li>
         <li class="mb-1">
-          <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-            data-bs-target="#account-collapse" aria-expanded="false">
-            Account
+          <button class="btn btn-toggle align-items-center rounded" aria-expanded="false"><span class="h3">Crear Grupo</span>
           </button>
-          <div class="collapse" id="accont-collapse">
-            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-              <li><a href="#" class="link-dark rounded">New...</a></li>
-              <li><a href="#" class="link-dark rounded">Profile</a></li>
-              <li><a href="#" class="link-dark rounded">Settings</a></li>
-              <li><a href="#" class="link-dark rounded">Sign out</a></li>
-            </ul>
-          </div>
         </li>
+        <li class="border-top border-dark my-3 me-5"></li>
+        
       </ul>
     </div>
 
@@ -409,8 +452,8 @@
 
 
   </main>
-  <footer class="container-fluid">
-    <div class=" float-start h-100 col-12 text-center p-3 me-5 border border-warning border-5" style="min-height:100px">
+  <footer class="container-fluid p-0">
+    <div class=" float-start h-100 col-12 text-center p-0 me-5 border border-warning border-bottom-0 border-end-0 border-start-0 border-5" style="min-height:100px">
       Columnaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
     </div>
   </footer>

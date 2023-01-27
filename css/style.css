@@ -8,20 +8,29 @@ html {
 }
 
 main{
+    background-color: #bad7b5;
     margin-bottom: 300px;
     padding-bottom: 300px;
-    min-height: 1000px;
+    min-height: 1500px;
 }
 
 header {
     font-size: 4vw;
+    background-color:#eee8cd
 }
 
 .col-center {
     float: none;
     margin: 0 auto;
 }
-
+.izquierdo{
+    min-height: 1500px;
+    background-color: #dac56f;
+}
+.derecho{
+    min-height: 1500px;
+    background-color: #dac56f;
+}
 footer {
     background-color: black;
     position: absolute;

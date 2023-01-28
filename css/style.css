@@ -12,6 +12,7 @@ main{
     margin-bottom: 300px;
     padding-bottom: 300px;
     min-height: 1500px;
+    height: 100vh;
 }
 
 header {
@@ -26,10 +27,12 @@ header {
 .izquierdo{
     min-height: 1500px;
     background-color: #dac56f;
+    height: 100vh;
 }
 .derecho{
     min-height: 1500px;
     background-color: #dac56f;
+    height:100vh
 }
 footer {
     background-color: black;

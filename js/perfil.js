@@ -26,6 +26,6 @@ $('.textocorreo').attr("placeholder", localStorage.getItem('correo'));
 
 $('.textoplan').attr("placeholder", localStorage.getItem('plan'));
 
-$('.nombreperfil').html(localStorage.getItem('usuario'));
+$('.nombreperfil').text(localStorage.getItem('usuario'));
 
 console.log("HOIOOOOASDASDOIASD")

@@ -1,3 +1,4 @@
+$('.nombreperfil').text(localStorage.getItem('usuario'));
 function leerTodo(x) {
     var etiquetas = document.getElementsByTagName("div");
     for (var i = 0; i < etiquetas.length; i++) {

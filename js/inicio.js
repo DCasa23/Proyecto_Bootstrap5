@@ -15,7 +15,8 @@ $("#BotonInicio").click((function (e) {
     }}))
 
 //Enlace para crear usuario
-
-$("#botonCrear").click(function() {
-    window.location.href = 'html/crear.html';
-})
+/*
+$("#crearinicio").click(function(e) {
+    e.preventDefault();
+    window.location.href = 'html/crearusuario.html';
+})*/

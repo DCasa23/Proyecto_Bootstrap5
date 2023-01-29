@@ -22,13 +22,13 @@
       <div class="col-lg-2 d-none d-lg-block float-start align-items-center text-center px-0 py-0 "><img class="bd-placeholder-img bd-placeholder-img-lg featurette image
         img-fluid mx-auto;" src="../img/ProyectoAlbaRemove.png"></div>
       <div class="col-md-3 col-sm-3 col-4 d-lg-none float-start align-items-center text-center px-0 py-0 "><img class="bd-placeholder-img bd-placeholder-img-lg featurette image
-        img-fluid mx-auto;" src="../img/guest.png"><a class="nombreperfil fw-bold text-dark text-decoration-none m-lg-4 m-xl-4 fs-4" href="www.marca.com"></a></div>
+        img-fluid mx-auto;" src="../img/guest.png"><a id="botonusuario" class="nombreperfil fw-bold text-dark text-decoration-none m-lg-4 m-xl-4 fs-4" ></a></div>
       <div class="col-8 text-center align-self-center float-none ">
         <h1>Proyecto Alba</h1>
         <h4>Learning Environment</h4>
       </div>
       <div class="col-2 d-none d-md-none d-lg-block float-start text-center p-0"><img class="bd-placeholder-img bd-placeholder-img-lg featurette image
-        img-fluid mx-auto pt-lg-1;" src="../img/guest.png"><a class="nombreperfil fw-bold text-dark text-decoration-none m-lg-4 m-xl-4 fs-4" href="www.marca.com"></a></div>
+        img-fluid mx-auto pt-lg-1;" src="../img/guest.png"><a id="botonusuario" class="nombreperfil fw-bold text-dark text-decoration-none m-lg-4 m-xl-4 fs-4" ></a></div>
     </div>
   </header>
   <main class="container-fluid p-0 mb-0">
@@ -37,26 +37,19 @@
 
       <ul class="list-unstyled ps-lg-3 ps-md-3 ps-sm-1 ps-1">
         <li class="mb-1" id="headingTwo">
-          <button class="btn btn-toggle align-items-center rounded collapsed ps-0 boton" data-bs-toggle="collapse"
+          <button id="proyectosboton" class="btn btn-toggle align-items-center rounded collapsed ps-0 boton" data-bs-toggle="collapse"
             data-bs-target="#proyectos" aria-expanded="true" aria-controls="proyectos"><span
               class="fs-5 fw-bold">Proyectos</span>
 
           </button>
           <div class="collapse show menu" id="proyectos" aria-labelledby="headingTwo" data-parent="#accordion">
             <ul class="card-body btn-toggle-nav list-unstyled fw-normal pb-1 ps-2 small">
-              <li class="pb-3"><a href="#"
-                  class="link-dark rounded text-decoration-none fs-6 text-decoration-line-through">Preguntas Cortas</a>
+              <li class="pb-3"><a id="proyectoscortas" href="#" class="link-dark rounded text-decoration-none fs-6">Preguntas Cortas</a></li>
+              <li class="pb-3"><a id="proyectosdesarrollo" href="#" class="link-dark rounded text-decoration-none fs-6">Examen Desarrollo</a>
               </li>
-              <li class="pb-3"><a href="#"
-                  class="link-dark rounded text-decoration-none fs-6 text-decoration-line-through">Examen Desarrollo</a>
-              </li>
-              <li class="pb-3"><a href="#"
-                  class="link-dark rounded text-decoration-none fs-6 text-decoration-line-through">Test</a></li>
-              <li class="pb-3"><a href="#"
-                  class="link-dark rounded text-decoration-none fs-6 text-decoration-line-through">Cantar Temas</a></li>
-              <li class="pb-3"><a href="#"
-                  class="link-dark rounded text-decoration-none fs-6 text-decoration-line-through">Tarjetas de
-                  Memoria</a>
+              <li class="pb-3"><a id="proyectostest" href="#" class="link-dark rounded text-decoration-none fs-6">Test</a></li>
+              <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none fs-6 text-decoration-line-through">Cantar Temas</a></li>
+              <li class="pb-3"><a id="proyectostarjetas" href="#" class="link-dark rounded text-decoration-none fs-6">Tarjetas de Memoria</a>
               </li>
             </ul>
           </div>
@@ -68,19 +61,12 @@
           </button>
           <div class="collapse menu" id="cr-proyecto" aria-labelledby="headingTwo" data-parent="#accordion">
             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-2 small">
-              <li class="pb-3"><a href="#"
-                  class="link-dark rounded text-decoration-none fs-6 text-decoration-line-through">Preguntas Cortas</a>
+              <li class="pb-3"><a id="preguntascrear" href="#" class="link-dark rounded text-decoration-none fs-6">Preguntas Cortas</a></li>
+              <li class="pb-3"><a id="desarrollocrear"href="#" class="link-dark rounded text-decoration-none fs-6">Examen Desarrollo</a>
               </li>
-              <li class="pb-3"><a href="#"
-                  class="link-dark rounded text-decoration-none fs-6 text-decoration-line-through">Examen Desarrollo</a>
-              </li>
-              <li class="pb-3"><a href="#"
-                  class="link-dark rounded text-decoration-none fs-6 text-decoration-line-through">Test</a></li>
-              <li class="pb-3"><a href="#"
-                  class="link-dark rounded text-decoration-none fs-6 text-decoration-line-through">Cantar Temas</a></li>
-              <li class="pb-3"><a href="#"
-                  class="link-dark rounded text-decoration-none fs-6 text-decoration-line-through">Tarjetas de
-                  Memoria</a>
+              <li class="pb-3"><a id="testcrear" href="#" class="link-dark rounded text-decoration-none fs-6">Test</a></li>
+              <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none fs-6 text-decoration-line-through">Cantar Temas</a></li>
+              <li class="pb-3"><a id="tarjetascrear" href="#" class="link-dark rounded text-decoration-none fs-6">Tarjetas de Memoria</a>
               </li>
             </ul>
           </div>
@@ -169,7 +155,7 @@
 
         </li>
         <li class="mb-1">
-          <button class="btn btn-toggle align-items-center rounded ps-0" aria-expanded="false">
+          <button id="botonusuario" class="btn btn-toggle align-items-center rounded ps-0" aria-expanded="false">
             <span class="fs-5 fw-bold">Cuenta Usuario</span>
           </button>
 
@@ -228,13 +214,13 @@
 
           </button>
           <div class="collapse show menu" id="cr-proyecto">
-            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-4 small">
-              <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none fs-6">Preguntas Cortas</a></li>
-              <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none fs-6">Examen Desarrollo</a>
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-4  small">
+              <li class="pb-3"><a id="preguntascrear" href="#" class="link-dark rounded text-decoration-none fs-6">Preguntas Cortas</a></li>
+              <li class="pb-3"><a id="desarrollocrear" href="#" class="link-dark rounded text-decoration-none fs-6">Examen Desarrollo</a>
               </li>
-              <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none fs-6">Test</a></li>
+              <li class="pb-3"><a id="testcrear" href="#" class="link-dark rounded text-decoration-none fs-6">Test</a></li>
               <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none fs-6">Cantar Temas</a></li>
-              <li class="pb-3"><a href="#" class="link-dark rounded text-decoration-none fs-6">Tarjetas de Memoria</a>
+              <li class="pb-3"><a id="tarjetascrear" href="#" class="link-dark rounded text-decoration-none fs-6">Tarjetas de Memoria</a>
               </li>
             </ul>
           </div>
@@ -283,6 +269,9 @@
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
     </script>
   <script src="../js/crear.js">
+
+  </script>
+  <script src="../js/direcciones.js">
 
   </script>
 </body>

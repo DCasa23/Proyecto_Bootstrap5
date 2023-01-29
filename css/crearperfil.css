@@ -42,8 +42,13 @@ footer {
     padding-top: 50px;
     
 }
-#disabledTextInput::placeholder{
+.disabledTextInput::placeholder{
     color:black;
+    font-weight: bold;
+    
+}
+.optionplan::value{
+    color:red;
     font-weight: bold;
     
 }

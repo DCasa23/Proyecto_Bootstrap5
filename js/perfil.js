@@ -1,60 +1,31 @@
-const nombre = document.getElementById("nombre")
-const apellidos = document.getElementById("apellidos")
-const correo = document.getElementById("correo")
-const telefono = document.getElementById("telefo")
-const dni = document.getElementById("dniform")
-const usuario = document.getElementById("usuario")
-const fecha = document.getElementById("ingreso")
-const form = document.getElementById("renovacion")
-const password = document.getElementById("password")
-const ciudad = document.getElementById("ciudad")
-const rol = document.getElementById("rol")
-const pago = document.getElementById("pago")
-const plan = document.getElementById("plan")
 
 
+$('.textonombre').attr("placeholder", localStorage.getItem('nombre'));
 
+$('.textoapellidos').attr("placeholder", localStorage.getItem('apellidos'));
 
+$('.textousuario').attr("placeholder", localStorage.getItem('usuario'));
 
-class Usuario {
+$('.textopassword').attr("placeholder", localStorage.getItem('password'));
 
-    constructor(nombreUsuario, usuarioUsuario, passwordUsuario, fechaEntrada, fechaRenueva, apellidosUsuario, correoUsuario, telefonoUsuario, ciudadUsuario, planUsuario, rolUsuario, pagoUsuario) {
-        this.nombreUsuario = nombreUsuario;
-        this.usuarioUsuario = usuarioUsuario;
-        this.passwordUsuario = passwordUsuario;
-        this.fechaEntrada = fechaEntrada;
-        this.fechaRenueva = fechaRenueva;
-        this.correoUsuario = correoUsuario;
-        this.apellidosUsuario = apellidosUsuario;
-        this.telefonoUsuario = telefonoUsuario;
-        this.ciudadUsuario = ciudadUsuario;
-        this.planUsuario = planUsuario;
-        this.pagoUsuario = pagoUsuario;
-        this.rolUsuario = rolUsuario;
+$('.textoingreso').attr("placeholder", localStorage.getItem('ingreso'));
 
-    }
+$('.textorenovacion').attr("placeholder", localStorage.getItem('renovacion'));
 
+$('.textoplan').attr("placeholder", localStorage.getItem('plan'));
 
+$('.textorol').attr("placeholder", localStorage.getItem('rol'));
 
-}
+$('.textopago').attr("placeholder", localStorage.getItem('pago'));
 
+$('.textociudad').attr("placeholder", localStorage.getItem('ciudad'));
 
+$('.textotelefono').attr("placeholder", localStorage.getItem('telefono'));
 
-datosTotales = new Usuario(nombre.placeholder, usuario.placeholder, password.placeholder, ingreso.placeholder,renovacion.placeholder, apellidos.value, correo.value, telefono.value,ciudad.option, plan.option, rol.option,  pago.option);
-        const myJSON = JSON.stringify(datosTotales);
-        const ObjCliente = JSON.parse(myJSON);
-        localStorage.setItem('nombre', ObjCliente.nombreUsuario);
-        localStorage.setItem('ingreso', ObjCliente.fechaUsuario);
-        localStorage.setItem('usuario', ObjCliente.usuarioUsuario);
-        localStorage.setItem('password', ObjCliente.passwordUsuario);
-        localStorage.setItem('apellidos', ObjCliente.apellidosUsuario);
-        localStorage.setItem('correo', ObjCliente.correoUsuario);
-        localStorage.setItem('DNI', ObjCliente.DNIUsuario);
-        localStorage.setItem('telefono', ObjCliente.telefonoUsuario);
-        localStorage.setItem('direccion', ObjCliente.direccionUsuario);
-        localStorage.setItem('CP', ObjCliente.CPUsuario);
-        localStorage.setItem('ciudad', ObjCliente.ciudadUsuario);
-        localStorage.setItem('pais', ObjCliente.paisUsuario);
-        localStorage.setItem('SWIFT', ObjCliente.SWIFTUsuario);
-        localStorage.setItem('IBAN', ObjCliente.IBANUsuario);
-    
+$('.textocorreo').attr("placeholder", localStorage.getItem('correo'));
+
+$('.textoplan').attr("placeholder", localStorage.getItem('plan'));
+
+$('.nombreperfil').html(localStorage.getItem('usuario'));
+
+console.log("HOIOOOOASDASDOIASD")

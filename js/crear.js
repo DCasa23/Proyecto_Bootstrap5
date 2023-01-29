@@ -1,3 +1,4 @@
+$('.nombreperfil').html(localStorage.getItem('usuario'));
 $("#textoRespuestaVerdadero").click(function () {
         
     $("#verdadero").prop("checked", true);

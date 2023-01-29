@@ -23,6 +23,5 @@ function cambiarleerTodo(x) {
 
 $(".boton").click(function () {
     $("div").collapse("hide")
-    console.log("les estas2 dando a despelgar")
     $(this).collapse("show")
 })

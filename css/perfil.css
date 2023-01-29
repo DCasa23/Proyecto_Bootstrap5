@@ -1,7 +1,3 @@
-/** {
-    border: 2px red solid;
-}*/
-
 html {
     min-height: 100%;
     position: relative;
@@ -40,10 +36,5 @@ footer {
     position: absolute;
     bottom: 0;
     padding-top: 50px;
-    
-}
-#textoPerfil::placeholder{
-    color:black;
-    font-weight: bold;
     
 }

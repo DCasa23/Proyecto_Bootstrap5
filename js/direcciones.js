@@ -22,22 +22,6 @@ $("#crearusuario").click(function(e) {
     e.preventDefault();
     window.location.href = 'principal.html';
 })
-$("#preguntascrear").click(function(e) {
-    e.preventDefault();
-    window.location.href = 'crearcortas.html';
-})
-$("#desarrollocrear").click(function(e) {
-    e.preventDefault();
-    window.location.href = 'creardesarrollo.html';
-})
-$("#testcrear").click(function(e) {
-    e.preventDefault();
-    window.location.href = 'creartest.html';
-})
-$("#tarjetascrear").click(function(e) {
-    e.preventDefault();
-    window.location.href = 'creartarjeta.html';
-})
 
 $("#proyectoscortas").click(function(e) {
     e.preventDefault();
@@ -59,7 +43,50 @@ $("#botonusuario").click(function(e) {
     e.preventDefault();
     window.location.href = 'perfil.html';
 })
+
+$("#botonusuario2").click(function(e) {
+    e.preventDefault();
+    window.location.href = 'perfil.html';
+})
+$("#botonusuario3").click(function(e) {
+    e.preventDefault();
+    window.location.href = 'perfil.html';
+})
 $("#proyectosboton").click(function(e) {
     e.preventDefault();
     window.location.href = 'principal.html';
+})
+
+$("#preguntascrear").click(function(e) {
+    e.preventDefault();
+    window.location.href = 'crearcortas.html';
+})
+$("#desarrollocrear").click(function(e) {
+    e.preventDefault();
+    window.location.href = 'creardesarrollo.html';
+})
+$("#testcrear").click(function(e) {
+    e.preventDefault();
+    window.location.href = 'creartest.html';
+})
+$("#tarjetascrear").click(function(e) {
+    e.preventDefault();
+    window.location.href = 'creartarjeta.html';
+})
+
+$("#preguntascrear2").click(function(e) {
+    e.preventDefault();
+    window.location.href = 'crearcortas.html';
+})
+$("#desarrollocrear2").click(function(e) {
+    e.preventDefault();
+    window.location.href = 'creardesarrollo.html';
+})
+$("#testcrear2").click(function(e) {
+    e.preventDefault();
+    window.location.href = 'creartest.html';
+})
+$("#tarjetascrear2").click(function(e) {
+    e.preventDefault();
+    window.location.href = 'creartarjeta.html';
 })

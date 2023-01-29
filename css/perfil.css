@@ -42,7 +42,7 @@ footer {
     padding-top: 50px;
     
 }
-#disabledTextInput::placeholder{
+#textoPerfil::placeholder{
     color:black;
     font-weight: bold;
     
